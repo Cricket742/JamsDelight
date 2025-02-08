@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="MIT License"
+
+[[mods]]
+
+modId="jamsdelight"
+
+version="1.0"
+displayName="Jams Delight"
+
+credits="Thank you to every FD mod author for making amazing things"
+authors="Just a Cricket
+description="Bridgeing Jams from different mods together"
+
+[[dependencies.jamsdelight]]
+modId="forge"
+mandatory=true
+versionRange="[47.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jamsdelight]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jamsdelight]]
+modId = "farmersdelight"
+mandatory = true
+versionRange = "[1.2.3,)"
+ordering = "NONE"
+side = "BOTH"
