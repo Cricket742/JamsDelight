@@ -21,10 +21,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.MELON_JAM.get());
-//                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-
-//                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-//                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModItems.MELON_JAM_BOTTLE.get());
 
                     })
                     .build());
