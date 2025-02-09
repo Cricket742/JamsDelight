@@ -115,9 +115,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:farmers-delight-398521:${farmersdelight_version}")
 
-
-    //compileOnly fg.deobf("squeek.appleskin:appleskin-forge:${appleskin_version}:api")
-    //runtimeOnly fg.deobf("squeek.appleskin:appleskin-forge:${appleskin_version}")
+    implementation fg.deobf("curse.maven:vintage-delight-949719:5847856")
 
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}")
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")

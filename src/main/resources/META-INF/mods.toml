@@ -10,7 +10,7 @@ version="1.0"
 displayName="Jams Delight"
 
 credits="Thank you to every FD mod author for making amazing things"
-authors="Just a Cricket
+authors="Just a Cricket"
 description="Bridgeing Jams from different mods together"
 
 [[dependencies.jamsdelight]]
@@ -31,5 +31,12 @@ side="BOTH"
 modId = "farmersdelight"
 mandatory = true
 versionRange = "[1.2.3,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jamsdelight]]
+modId = "vintagedelight"
+mandatory = true
+versionRange = "[0.1.6,)"
 ordering = "NONE"
 side = "BOTH"

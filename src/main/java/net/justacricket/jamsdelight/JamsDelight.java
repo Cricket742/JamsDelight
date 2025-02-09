@@ -1,6 +1,8 @@
 package net.justacricket.jamsdelight;
 
 import com.mojang.logging.LogUtils;
+import net.justacricket.jamsdelight.block.ModBlocks;
+import net.justacricket.jamsdelight.item.ModCreativeModTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,6 +23,10 @@ public class JamsDelight {
 
     public JamsDelight() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
+
+       ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
