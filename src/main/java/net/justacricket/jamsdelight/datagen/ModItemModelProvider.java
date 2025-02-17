@@ -19,6 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
 
         simpleItem(ModItems.MELON_JAM);
+        simpleItem(ModItems.MELON_JAM_BOTTLE);
 
     }
 
@@ -28,3 +29,4 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation(JamsDelight.MOD_ID,"item/" + item.getId().getPath()));
     }
 }
+
